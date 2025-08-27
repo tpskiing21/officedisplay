@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
   <head>
@@ -20,14 +19,16 @@
     </style>
   </head>
   <body>
-    <!-- Avigilon -->
-    <iframe class="left"
-      src="https://click-bond.us4.alta.avigilon.com/videoview/82907d0a-9e52-4591-a79a-50c7aa64f193?site=cbaf39c8-6671-4555-bde0-fa10c49f4217"
-      allow="autoplay; fullscreen"></iframe>
+    <div class="wrap">
+      <!-- Avigilon -->
+      <iframe class="left"
+        src="https://click-bond.us4.alta.avigilon.com/videoview/82907d0a-9e52-4591-a79a-50c7aa64f193?site=cbaf39c8-6671-4555-bde0-fa10c49f4217"
+        allow="autoplay; fullscreen"></iframe>
 
-    <!-- FlightAware -->
-    <iframe class="right"
-      src="https://www.flightaware.com/live/flex_bigmap.rvt?type=me&time=1751476500&key=2fbfa3039cc7560ac6f63f8b0df1a18d9403cd88"
-      allow="autoplay; fullscreen"></iframe>
+      <!-- FlightAware -->
+      <iframe class="right"
+        src="https://www.flightaware.com/live/flex_bigmap.rvt?type=me&time=1751476500&key=2fbfa3039cc7560ac6f63f8b0df1a18d9403cd88"
+        allow="autoplay; fullscreen"></iframe>
+    </div>
   </body>
 </html>
